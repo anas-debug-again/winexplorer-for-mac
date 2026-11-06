@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.png binary
+*.icns binary
+
+# Never include local data or generated artifacts in source archives
+/.private export-ignore
+/.build export-ignore
+/build export-ignore
+/state export-ignore
+/release export-ignore

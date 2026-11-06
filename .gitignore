@@ -1,0 +1,25 @@
+# Generated builds and package/editor state
+.build/
+build/
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+
+# Personal browsing history and preferences
+state/
+
+# macOS metadata
+.DS_Store
+
+# Private local archives and publication staging
+.private/
+release/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 256 256">
+  <title>Split-pane folder</title>
+  <defs>
+    <linearGradient id="tile" x2="0.82" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#28586B"/>
+      <stop offset=".56" stop-color="#153443"/>
+      <stop offset="1" stop-color="#10252F"/>
+    </linearGradient>
+    <linearGradient id="folder" x2=".56" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#A3F4CA"/>
+      <stop offset=".48" stop-color="#56DBB0"/>
+      <stop offset="1" stop-color="#27B59D"/>
+    </linearGradient>
+    <linearGradient id="rail" x2=".35" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#5ECFA8"/>
+      <stop offset="1" stop-color="#169A88"/>
+    </linearGradient>
+    <linearGradient id="paper" x2=".25" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#FFF8D8"/>
+      <stop offset="1" stop-color="#E8DFA6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- The tile and the folder each have their own silhouette at Dock sizes. -->
+  <rect x="10" y="12" width="236" height="236" rx="53" fill="#0C212A" opacity=".2"/>
+  <rect x="10" y="8" width="236" height="236" rx="53" fill="url(#tile)"/>
+  <rect x="11" y="9" width="234" height="234" rx="52" fill="none" stroke="#B4EBDE" stroke-opacity=".13" stroke-width="2"/>
+
+  <!-- The notched back cover holds a single sheet above the front lip. -->
+  <path d="M41 85a17 17 0 0 1 17-17h42c7 0 10 2 15 7l9 9h71a15 15 0 0 1 15 15v77a15 15 0 0 1-15 15H56a15 15 0 0 1-15-15Z" fill="#0C252E" opacity=".6" transform="translate(0 5)"/>
+  <path d="M41 85a17 17 0 0 1 17-17h42c7 0 10 2 15 7l9 9h71a15 15 0 0 1 15 15v77a15 15 0 0 1-15 15H56a15 15 0 0 1-15-15Z" fill="#40B49B"/>
+  <path d="M41 86a17 17 0 0 1 17-17h42c7 0 10 2 15 7l9 9h71" fill="none" stroke="#8EE9C0" stroke-width="2"/>
+  <path d="M62 105a10 10 0 0 1 9-10l117-12c6-.6 11 3.7 11 10v50H62Z" fill="url(#paper)"/>
+
+  <!-- Left navigation rail and right list form one continuous folder cover. -->
+  <path d="M36 114a11 11 0 0 1 11-12h162a11 11 0 0 1 11 12l-6 64a18 18 0 0 1-18 17H60a18 18 0 0 1-18-17Z" fill="#081F26" opacity=".5" transform="translate(0 5)"/>
+  <path d="M36 114a11 11 0 0 1 11-12h162a11 11 0 0 1 11 12l-6 64a18 18 0 0 1-18 17H60a18 18 0 0 1-18-17Z" fill="url(#folder)"/>
+  <path d="M36 114a11 11 0 0 1 11-12h33l6 93H60a18 18 0 0 1-18-17Z" fill="url(#rail)"/>
+  <path d="M81 103l6 91" fill="none" stroke="#C6FFE0" stroke-opacity=".6" stroke-width="2"/>
+  <path d="M38 108q3-6 11-6h158q8 0 11 6" fill="none" stroke="#DBFFE8" stroke-opacity=".78" stroke-width="2"/>
+  <g fill="#147E70">
+    <rect x="101" y="127" width="75" height="10" rx="5"/>
+    <rect x="102" y="150" width="51" height="10" rx="5"/>
+  </g>
+</svg>
